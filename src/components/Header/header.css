@@ -1,0 +1,35 @@
+@import url(/src/App.css);
+
+header {
+    background-color: rgba(0, 0, 0, 0.447);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+header img {
+    margin: 0 auto;
+    display: block;    
+}
+
+header.scrolled img {
+    animation: bounce 0.9s ease-out;
+    width: 150px; 
+}
+
+
+@keyframes bounce {
+    0% { transform: scale(1.0); }
+   10% { transform: scale(1.1); }
+   20% { transform: scale(1.2); }    
+   30% { transform: scale(1.1); }
+   40% { transform: scale(1.0); } 
+   50% { transform: scale(1.1); }
+   60% { transform: scale(1.0); } 
+   70% { transform: scale(1.05);}
+   80% { transform: scale(1.0); } 
+   90% { transform: scale(1.02);}    
+  100% { transform: scale(1.0); }    
+}
