@@ -1,0 +1,6 @@
+.card {
+    background-color: rgba(2, 2, 2, 0.308)!important;
+    backdrop-filter: blur(10px);
+    box-shadow: rgb(237 158 8 / 50%) 0px 0px 18px, rgba(8, 237, 220, 0.1) 0px 0px 18px !important;
+    color: var(--white-primary)!important;   
+}
