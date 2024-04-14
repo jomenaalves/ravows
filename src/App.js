@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/header';
 import Apresentation from './components/Body/Apresentation/apresentation';
+import Services from './components/Body/Services/services';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <section className='content-body'>
           <Header />
           <Apresentation />
+          <Services />
           
         </section>
       </div>

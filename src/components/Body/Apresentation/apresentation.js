@@ -27,7 +27,7 @@ export default function Apresentation () {
                     </div>
                 </div>
                 <div className='col-lg-6'>
-                    <div className='card-form p-5 my-lg-5 mx-2 rounded'>
+                    <div className='card-form p-5 my-lg-5 mx-lg-2 mx-2 rounded'>
                         <img src={Logo} width={55} className='m-lg-auto d-block pb-3'/>
                         <p className='text-lg-center h3'>
                             <span className=''>
